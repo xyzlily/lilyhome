@@ -7,26 +7,29 @@ body {
     min-height: 100vh;  
 }  
 .header,footer {  
-    background-color: #ff5050;  
-    color: white;  
     text-align: center;  
-    padding: 10px 0;  
+    padding: 10px 10px; 
 }  
 header {  
     top: 0;
-    font-size: 35px;
-}  
-  
+    font-size: 45px;
+    background-color: #ff5050;  
+    color: white;  
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
 footer {  
     bottom: 0; 
     font-size: medium;
     background-color: #ffffff; 
-    color: #ff6767;
+    color: #ff5050;
 }
 .container {  
     display: flex;  
     flex-grow: 1;  
-    padding: 15px;  
+    padding-top:10px;  
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 0;
 }  
   
 .sidebar {  
@@ -62,11 +65,13 @@ footer {
 .content { 
     color: #fff; 
     flex-grow: 1;  
-    padding: 30px;
+    padding: 40px;
     background-image: url('e4824b04gy1hqyld380ydj21401oe164.jpg'); /* 内容区域背景图片 */ 
     background-size: cover; /* 让图片自动缩放以填满整个元素，可能会裁剪图片 */  
     background-position: center; /* 图片居中显示 */  
     background-repeat: no-repeat; /* 确保图片不重复 */   
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);  
     margin-left: 10px; /* 与侧边栏保持一定距离 */  
-    width: calc(100% - 240px); /* 总宽度
+    width: calc(100% - 240px);
+}
+ 

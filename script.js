@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
             page.style.display = 'none';  
         }  
     });  
-  
     // 为侧边栏链接添加点击事件监听器  
     document.querySelectorAll('.nav-link').forEach(link => {  
         link.addEventListener('click', function(event) {  
@@ -23,6 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetPage = document.getElementById(targetId);  
             targetPage.style.display = 'block';  
             targetPage.classList.add('active');  
-        });  
+        }); 
     });  
 });
